@@ -1,0 +1,42 @@
+.main-container {
+    display:flex;
+    border: 2px red solid;
+    justify-content: center;
+    align-items: center;
+}
+
+#test1 {
+    width: 2px;
+    height:2px;
+    border: 2px blue solid;
+}
+
+#test2 {
+    width: 2px;
+    height:2px;
+    border:2px red solid;
+}
+
+
+.grid-container {
+    display:grid;   
+    /*
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    */
+    height: 500px;
+    width: 500px;
+    
+}
+
+button{
+    border-radius:5px;
+}
+
+.reset {
+    border-radius: 5px;
+}
+
+.gridElement {
+    border: 1px black solid;
+}
