@@ -1,32 +1,31 @@
 .main-container {
     display:flex;
-    border: 2px red solid;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5em;
+    height: 1000px  
 }
 
-#test1 {
-    width: 2px;
-    height:2px;
-    border: 2px blue solid;
+.title {
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: red;
+    text-decoration: underline;
 }
-
-#test2 {
-    width: 2px;
-    height:2px;
-    border:2px red solid;
-}
-
 
 .grid-container {
     display:grid;   
-    /*
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    */
     height: 500px;
-    width: 500px;
-    
+    width: 500px;  
+    border: 3px black solid;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content:center;
+    gap:20em;
 }
 
 button{
@@ -34,9 +33,21 @@ button{
 }
 
 .reset {
-    border-radius: 5px;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 .gridElement {
-    border: 1px black solid;
+    border: 1px red solid;
+}
+
+.gridSize-Button {
+    font-size: 30px;
+    background-color: blue;
+}
+
+.rainbowButton {
+    font-size: 30px;
+    background-color: purple;
 }
